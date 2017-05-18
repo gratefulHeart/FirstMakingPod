@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+    自定义的AlertController，方便使用！
                    DESC
 
   s.homepage     = "https://github.com/gratefulHeart/FirstMakingPod"
