@@ -1,7 +1,7 @@
 
 
 #import "HBAlertController.h"
-#define IOS7  1 //([[[UIDevice currentDevice]systemVersion] floatValue] < 8.0)
+#define IOS7  ([[[UIDevice currentDevice]systemVersion] floatValue] < 8.0)
 typedef void (^ButtonClick)(NSUInteger index);
 
 @interface HBAlertController()<UIAlertViewDelegate>
