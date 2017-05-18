@@ -2,11 +2,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HBAlertController : UIAlertController
+@interface HBAlertController : NSObject
 
++ (instancetype)shareAlert;
 
 /**
- *  弹出框
+ *  可以自定义文字富文本颜色的 弹出框
  *
  *  @param viewController controller
  *  @param title          标题
