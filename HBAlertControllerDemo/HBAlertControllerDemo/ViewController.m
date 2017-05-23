@@ -32,7 +32,6 @@
 - (void)btnClick{
 
     [HBAlertController alertControllerShowInViewController:self title:@"提示" message:@"提示框测试" actionName:@[@"取消",@"确定"] handler:^(NSUInteger index) {
-    
         if (index == 0) {
             NSLog(@"取消");
         }
