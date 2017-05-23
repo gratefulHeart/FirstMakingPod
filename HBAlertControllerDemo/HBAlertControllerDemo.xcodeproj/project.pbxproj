@@ -221,7 +221,7 @@
 				TargetAttributes = {
 					C615BF2F1ECD7BF6007D3FCD = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 472P9J8R6U;
+						DevelopmentTeam = Y6HAL6UA2V;
 						ProvisioningStyle = Automatic;
 					};
 					C615BF481ECD7BF6007D3FCD = {
@@ -444,7 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 472P9J8R6U;
+				DEVELOPMENT_TEAM = Y6HAL6UA2V;
 				INFOPLIST_FILE = HBAlertControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zk.HBAlertControllerDemo;
@@ -456,7 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 472P9J8R6U;
+				DEVELOPMENT_TEAM = Y6HAL6UA2V;
 				INFOPLIST_FILE = HBAlertControllerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zk.HBAlertControllerDemo;
@@ -533,6 +533,7 @@
 				C615BF5F1ECD7BF6007D3FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C615BF601ECD7BF6007D3FCD /* Build configuration list for PBXNativeTarget "HBAlertControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +542,7 @@
 				C615BF621ECD7BF6007D3FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C615BF631ECD7BF6007D3FCD /* Build configuration list for PBXNativeTarget "HBAlertControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +551,7 @@
 				C615BF651ECD7BF6007D3FCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
