@@ -99,7 +99,7 @@ static HBAlertController * alertController = nil;
         
     }
     
-    
+    NSLog(@"%s",__FUNCTION__);
 }
 
 + (void)showAlertWithTitle:(NSString *)title message:(NSString *)message  actionName:(NSArray *)nameArr  handler:(void (^)(NSUInteger index))clickIndex{
@@ -121,6 +121,7 @@ static HBAlertController * alertController = nil;
     al.selectIndex = clickIndex;
     
     [alertView show];
+    NSLog(@"%s",__FUNCTION__);
 }
 +(void)alertControllerShowInViewController:(id)viewController  title:(NSString *)title message:(NSString *)message actionName:(NSArray *)nameArr  handler:(void (^)(NSUInteger index))clickIndex{
 
@@ -147,6 +148,7 @@ static HBAlertController * alertController = nil;
         [viewController presentViewController:alert animated:YES completion:nil];
         
     }
+    NSLog(@"%s",__FUNCTION__);
 }
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {

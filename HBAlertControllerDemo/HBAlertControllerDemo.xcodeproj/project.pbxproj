@@ -221,7 +221,7 @@
 				TargetAttributes = {
 					C615BF2F1ECD7BF6007D3FCD = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 499JTTNTTD;
+						DevelopmentTeam = Y6HAL6UA2V;
 						ProvisioningStyle = Manual;
 					};
 					C615BF481ECD7BF6007D3FCD = {
@@ -444,14 +444,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = Y6HAL6UA2V;
 				INFOPLIST_FILE = HBAlertControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xes.studentClient;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhikang.ipad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "2e95a95c-d097-4454-98cb-fa9d0f4905f4";
+				PROVISIONING_PROFILE_SPECIFIER = ZKipad;
 			};
 			name = Debug;
 		};
@@ -460,13 +461,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 499JTTNTTD;
+				DEVELOPMENT_TEAM = Y6HAL6UA2V;
 				INFOPLIST_FILE = HBAlertControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xes.studentClient;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhikang.ipad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "73f9e6fb-81aa-41a2-8300-39a942dd71ac";
-				PROVISIONING_PROFILE_SPECIFIER = XesStudentClient_QY;
+				PROVISIONING_PROFILE = "1684ca9a-b7b0-4b03-b202-859a2003850c";
+				PROVISIONING_PROFILE_SPECIFIER = ZKipad;
 			};
 			name = Release;
 		};
